@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		96D725D528A332B7003338D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725D428A332B7003338D1 /* AppDelegate.swift */; };
 		96D725D728A332B7003338D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725D628A332B7003338D1 /* SceneDelegate.swift */; };
-		96D725D928A332B7003338D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725D828A332B7003338D1 /* ViewController.swift */; };
+		96D725D928A332B7003338D1 /* loginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725D828A332B7003338D1 /* loginScreenViewController.swift */; };
 		96D725DC28A332B7003338D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D725DA28A332B7003338D1 /* Main.storyboard */; };
 		96D725DF28A332B7003338D1 /* task4ex3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96D725DD28A332B7003338D1 /* task4ex3.xcdatamodeld */; };
 		96D725E128A332B9003338D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D725E028A332B9003338D1 /* Assets.xcassets */; };
 		96D725E428A332B9003338D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D725E228A332B9003338D1 /* LaunchScreen.storyboard */; };
+		96D725EE28A33335003338D1 /* registerScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725ED28A33335003338D1 /* registerScreenViewController.swift */; };
+		96D725F228A333B7003338D1 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725F028A333B7003338D1 /* User+CoreDataClass.swift */; };
+		96D725F328A333B7003338D1 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725F128A333B7003338D1 /* User+CoreDataProperties.swift */; };
+		96D725F628A340F9003338D1 /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D725F528A340F9003338D1 /* homePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96D725D128A332B7003338D1 /* task4ex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task4ex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D725D428A332B7003338D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D725D628A332B7003338D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96D725D828A332B7003338D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96D725D828A332B7003338D1 /* loginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginScreenViewController.swift; sourceTree = "<group>"; };
 		96D725DB28A332B7003338D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96D725DE28A332B7003338D1 /* task4ex3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = task4ex3.xcdatamodel; sourceTree = "<group>"; };
 		96D725E028A332B9003338D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D725E328A332B9003338D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D725E528A332B9003338D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D725ED28A33335003338D1 /* registerScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerScreenViewController.swift; sourceTree = "<group>"; };
+		96D725F028A333B7003338D1 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		96D725F128A333B7003338D1 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96D725F528A340F9003338D1 /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		96D725C828A332B7003338D1 = {
 			isa = PBXGroup;
 			children = (
+				96D725F028A333B7003338D1 /* User+CoreDataClass.swift */,
+				96D725F128A333B7003338D1 /* User+CoreDataProperties.swift */,
 				96D725D328A332B7003338D1 /* task4ex3 */,
 				96D725D228A332B7003338D1 /* Products */,
 			);
@@ -60,12 +70,14 @@
 			children = (
 				96D725D428A332B7003338D1 /* AppDelegate.swift */,
 				96D725D628A332B7003338D1 /* SceneDelegate.swift */,
-				96D725D828A332B7003338D1 /* ViewController.swift */,
+				96D725D828A332B7003338D1 /* loginScreenViewController.swift */,
 				96D725DA28A332B7003338D1 /* Main.storyboard */,
 				96D725E028A332B9003338D1 /* Assets.xcassets */,
 				96D725E228A332B9003338D1 /* LaunchScreen.storyboard */,
 				96D725E528A332B9003338D1 /* Info.plist */,
 				96D725DD28A332B7003338D1 /* task4ex3.xcdatamodeld */,
+				96D725ED28A33335003338D1 /* registerScreenViewController.swift */,
+				96D725F528A340F9003338D1 /* homePageViewController.swift */,
 			);
 			path = task4ex3;
 			sourceTree = "<group>";
@@ -141,7 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D725DF28A332B7003338D1 /* task4ex3.xcdatamodeld in Sources */,
-				96D725D928A332B7003338D1 /* ViewController.swift in Sources */,
+				96D725EE28A33335003338D1 /* registerScreenViewController.swift in Sources */,
+				96D725F228A333B7003338D1 /* User+CoreDataClass.swift in Sources */,
+				96D725F328A333B7003338D1 /* User+CoreDataProperties.swift in Sources */,
+				96D725F628A340F9003338D1 /* homePageViewController.swift in Sources */,
+				96D725D928A332B7003338D1 /* loginScreenViewController.swift in Sources */,
 				96D725D528A332B7003338D1 /* AppDelegate.swift in Sources */,
 				96D725D728A332B7003338D1 /* SceneDelegate.swift in Sources */,
 			);
